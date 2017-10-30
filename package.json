@@ -1,0 +1,25 @@
+{
+  "name": "interview-questions-snippets",
+  "version": "0.0.1",
+  "description": "code snippets and interview questions for hiring",
+  "main": "index.js",
+  "scripts": {
+    "babel": "./node_modules/.bin/babel",
+    "build": "npm run babel -- src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhrubach/interview-questions-snippets.git"
+  },
+  "author": "dhruba chatterjee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhrubach/interview-questions-snippets/issues"
+  },
+  "homepage": "https://github.com/dhrubach/interview-questions-snippets#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "minimist": "^1.2.0"
+  }
+}
